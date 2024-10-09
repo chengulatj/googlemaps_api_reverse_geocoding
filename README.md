@@ -46,7 +46,14 @@ You’ll need an API key from **Google Cloud** to use the **Google Maps Geocodin
    ```python
    API_KEY = 'your-google-maps-api-key'
    ```
+### API Key Protection
 
+To protect the Google Maps API key, it was not directly pasted into the Colab notebook. Instead, the API key is securely stored in a file called `KEY.txt`, which is uploaded to **Google Drive**. The key is then read from the file and used in the notebook.:
+
+The API key was saved in a text file called `KEY.txt` in your **Google Drive** with the following format:
+   ```txt
+   API_KEY=your-google-maps-api-key
+   ```
 ## Code Usage (Google Colab)
 
 Here's a step-by-step explanation of the code you'll use in your Colab notebook:
